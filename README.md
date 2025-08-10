@@ -30,11 +30,11 @@ Ele foi Desenvolvido seguindo boas práticas de arquitetura com **DTOs**, **Serv
 - 📜 **Auth0 Java JWT**
 - 📖 **Springdoc OpenAPI / Swagger**
 - 🌙 **Insomnia**
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 📚 ForumHub – REST API with Spring Boot and JWT
