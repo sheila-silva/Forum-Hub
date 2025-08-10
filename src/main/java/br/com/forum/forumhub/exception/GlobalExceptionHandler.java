@@ -1,5 +1,3 @@
-//GlobalExceptionHandler  ok
-
 package br.com.forum.forumhub.exception;
 
 import org.springframework.http.HttpStatus;

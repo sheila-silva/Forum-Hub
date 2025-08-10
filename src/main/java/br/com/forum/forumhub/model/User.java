@@ -18,17 +18,19 @@ import java.util.List;
 @EqualsAndHashCode(of = "id")
 public class User implements UserDetails {
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String username;
+
     private String password;
+
+    private String role;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-      //  return List.of(); // ou List.of(new SimpleGrantedAuthority("ROLE_USER"))
-      return List.of(new SimpleGrantedAuthority("ROLE_USER"));
-
+        return List.of(new SimpleGrantedAuthority(this.role));
     }
 
     @Override public boolean isAccountNonExpired() { return true; }

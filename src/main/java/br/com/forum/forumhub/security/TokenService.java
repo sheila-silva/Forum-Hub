@@ -16,7 +16,7 @@ public class TokenService {
     @Value("${jwt.secret}")
     private String secret;
 
-    @Value("${jwt.expiration}") // em milissegundos
+    @Value("${jwt.expiration}")
     private Long expirationMillis;
 
     public String gerarToken(User user) {

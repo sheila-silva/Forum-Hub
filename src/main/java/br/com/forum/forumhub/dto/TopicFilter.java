@@ -4,7 +4,7 @@ public class TopicFilter {
     private String course;
     private Integer year;
 
-    // Getters e setters
+
     public String getCourse() {
         return course;
     }
