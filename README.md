@@ -35,7 +35,7 @@ Ele foi Desenvolvido seguindo boas práticas de arquitetura com **DTOs**, **Serv
 <br>
 <br>
 <br>
-------------------------------------------------------------------------------------------------------------------------
+
 
 # 📚 ForumHub – REST API with Spring Boot and JWT
 
